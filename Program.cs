@@ -68,9 +68,7 @@ namespace SubSystemForWindows
                 {
                     commandfound = true;
                     Console.Write("Please enter your new nickname:");
-                    username = Console.ReadLine();
-                    Console.Write("");
-                }
+                    username = Console.ReadLine();                }
                 if(command == "createfile")
                 {
                     commandfound = true;
